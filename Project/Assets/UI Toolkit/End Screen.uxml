@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:GroupBox name="EndBox" style="align-self: center; align-items: center; justify-content: center; top: 400px;">
+        <ui:Label tabindex="-1" text="All allies died at wave 0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="WaveLabel" style="font-size: 50px; align-self: center; align-items: center; justify-content: center; background-image: none;" />
+        <ui:Button text="Restart" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RestartButton" style="align-self: center; justify-content: center; align-items: center; font-size: 35px; margin-top: 10px;" />
+    </ui:GroupBox>
+</ui:UXML>

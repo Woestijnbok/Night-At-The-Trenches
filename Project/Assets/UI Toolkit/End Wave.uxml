@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:GroupBox text="Wave 0 Completed" name="WaveBox" style="height: 316px; font-size: 35px; -unity-text-align: upper-center; width: 305px; align-items: center; position: relative; top: 5%; left: auto; align-self: center; justify-content: space-around;">
+        <ui:IntegerField label="Enemies Killed" value="0" name="EnemiesKilled" focusable="false" style="font-size: 25px;" />
+        <ui:IntegerField label="Allies Rescued" value="0" name="AlliesRescued" focusable="false" style="margin-left: auto; margin-right: auto; font-size: 25px; align-items: stretch; justify-content: flex-start; align-self: auto; -unity-text-align: upper-left;" />
+        <ui:IntegerField label="Allies Killed" value="0" name="AlliesKilled" focusable="false" style="margin-left: auto; margin-bottom: 2px; margin-right: auto; justify-content: center; align-self: center; align-items: stretch; font-size: 25px;" />
+        <ui:IntegerField label="Allies Left" value="0" is-delayed="false" name="AlliesLeft" focusable="false" style="margin-right: auto; margin-left: auto; font-size: 25px;" />
+    </ui:GroupBox>
+    <ui:GroupBox name="ResupplyBox" style="position: relative; left: auto; top: 150px; right: auto; bottom: auto; font-size: 35px; -unity-text-align: upper-center; align-items: stretch; justify-content: flex-start; align-self: center; height: 335px; width: 1328px;">
+        <ui:IntegerField label="Resupplies" value="0" focusable="false" name="NrOfResuppliesIntegerField" style="font-size: 35px; align-items: center; justify-content: center; align-self: center; left: auto; right: auto; width: 20%; position: relative; max-width: none;" />
+        <ui:SliderInt picking-mode="Ignore" label="Bullets" value="0" high-value="100" show-input-field="true" name="BulletSlider" focusable="false" style="font-size: 25px; -unity-text-align: upper-left;" />
+        <ui:SliderInt picking-mode="Ignore" label="Medic Packs" value="0" high-value="100" name="MedicPackSlider" inverted="false" show-input-field="true" focusable="false" style="font-size: 25px;" />
+        <ui:SliderInt picking-mode="Ignore" label="Smoke Grenades" value="0" high-value="100" inverted="false" show-input-field="true" name="SmokeGrenadeSlider" focusable="false" style="font-size: 25px;" />
+        <ui:SliderInt picking-mode="Ignore" label="Gas Grenades" value="0" high-value="100" inverted="false" show-input-field="true" name="GasGrenadeSlider" focusable="false" style="font-size: 25px;" />
+    </ui:GroupBox>
+    <ui:Button text="Buy" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BuyButton" style="position: relative; top: 200px; left: auto; height: 58px; width: 106px; font-size: 35px; align-self: center; align-items: center; justify-content: center; bottom: auto;" />
+</ui:UXML>
